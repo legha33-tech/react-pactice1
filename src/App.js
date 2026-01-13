@@ -1,10 +1,11 @@
-import Header from "./component/Header";
+import Counter from "./Counter";
 
-export default function App() {
+function App() {
   return (
     <div>
-      <Header />
-      <h1>Hello react</h1>
+      <Counter />
     </div>
   );
 }
+
+export default App;
